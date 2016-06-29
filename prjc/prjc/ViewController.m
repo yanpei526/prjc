@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    YPCommonView *vv = [[YPCommonView alloc] init];
+    vv.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:vv];
 }
 
 - (void)didReceiveMemoryWarning {
