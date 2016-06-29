@@ -21,6 +21,8 @@
     YPCommonView *vv = [[YPCommonView alloc] init];
     vv.frame = CGRectMake(100, 100, 100, 100);
     [self.view addSubview:vv];
+    
+    // prjc iii
 }
 
 - (void)didReceiveMemoryWarning {
